@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="styles/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html"><i class="fa-solid fa-house" style="color: #f20707;"></i>Home</a></li>
+            <li><a href="units.html"><i class="fa-solid fa-people-group fa-bounce" style="color: #f20707;"></i>Unit</a></li>
+            <li><a href="company.html"><i class="fa-solid fa-building fa-flip" style="color: #fd310d;"></i>Company</a></li>
+            <li><a href="courses.html"><i class="fa-solid fa-book-open-reader fa-beat" style="color: #f92010;"></i>Courses</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-phone fa-shake" style="color: #d90808;"></i>Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h1>
+        <marquee behavior="alternate" scrollamount="15">Welcome to 3 Technical Training Regiment</marquee>
+    </h1>
+   
+
+    <div id="contact" class="div1">
+        <h1>Contact Us</h1>
+        <form action="">
+            <label for="Ano">Enter Your Army Number</label>
+            <input type="text" id="Ano"  required placeholder="Enter here......"><span class="req"></span>
+            <br>
+            <br>
+
+            <label for="rank">Enter Your Rank</label>
+            <select name="rank" id="rank"  required><span class="req"></span>
+                <option value="CHM">CHM</option>
+                <option value="Hav">Hav</option>
+                <option value="Naik">Naik</option>
+                <option value="Av">AV</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="name">Enter your Name</label>
+            <input type="text" id="name" required placeholder="Enter here......"><span class="req"></span>
+
+            <br>
+            <br>
+            <label for="trade">Select Your Trade</label>
+            <select name="trade" id="trade">
+                <option value="OCC">OCC</option>
+                <option value="TTC">TTC</option>
+                <option value="OSS">OSS</option>
+                <option value="DVR">DVR</option>
+                <option value="EFS">EFS</option>
+            </select>
+
+            <br>
+            <br>
+            <label for="company">Select Your Company</label>
+            <select name="company" id="Company">
+                <option value="HQ">HQ</option>
+                <option value="1 COY">1 COY</option>
+                <option value="2 COY">2 COY</option>
+                <option value="3 COY">3 COY</option>
+            </select> <span class="req"></span>
+
+            <br>
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" id="gender" value="male" name="gender">Male
+            <input type="radio" id="gender" value="female" name="gender">female
+            <br>
+            <br>
+
+            <label for="courses">Select the courses you have done</label>
+            <br>
+            <span id="courses">
+                <input type="checkbox" name="OCC CL-1" id="OCC CL-1" value="OCC CL-1">OCC CL-1
+        
+                <input type="checkbox" name="OCC CL-2" id="OCC CL-2" value="OCC CL-2">OCC CL-2
+        
+                <input type="checkbox" name="OCC CL-3" id="OCC CL-3" value="OCC CL-3">OCC CL -3 
+        
+                <input type="checkbox" name="JESYS" id="JESYS" value="JESYS">JESYS
+        
+                <input type="checkbox" name="ADP" id="ADP" value="ADP">ADP
+        
+            </span>
+            <br>
+           
+            <label for="file">Upload Passport size photo</label>
+            
+            <input type="file" id="file">
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <a href="thankyou.html"><input type="button" class="submit btn btn-outline-danger" value="Submit"></a>
+
+
+        </form>
+    </div>
+</body>
+</html>
